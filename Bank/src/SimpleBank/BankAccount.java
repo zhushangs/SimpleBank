@@ -150,7 +150,7 @@ public class BankAccount {
 			setHashOfPIN(tokens[4]);
 			setBalance(Double.parseDouble(tokens[5]));
 			
-			System.out.println(line);
+			System.out.println(tokens);
 
 		}
 	}

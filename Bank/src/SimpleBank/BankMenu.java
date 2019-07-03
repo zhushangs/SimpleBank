@@ -53,7 +53,8 @@ public class BankMenu {
 			default:
 				System.out.println("Invalid input");
 				break;
-			}									
+			}
+			landingMenu(bank);
 		}		
 	}
 	
@@ -141,6 +142,10 @@ public class BankMenu {
 				
 			case "N":
 				break;
+				
+			default:
+				System.out.println("Invalid input");
+				break;			
 			}
 		}else {
 			System.out.println("Username or PIN not correct!");
@@ -215,6 +220,10 @@ public class BankMenu {
 			case "4":
 				exit = true;
 				break;
+				
+			default:
+				System.out.println("Invalid input");
+				break;
 			}
 		}
 	}
@@ -280,6 +289,10 @@ public class BankMenu {
 				
 			case "6":
 				exit = true;
+				break;
+				
+			default:
+				System.out.println("Invalid input");
 				break;
 			}
 		}
